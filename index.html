@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Page</title>
-    <link rel="stylesheet" media="screen and (max-width:800px)" href="css/p8ipad.css">
-    <link rel="stylesheet" media="screen and (max-width:600px)" href="css/p8phone.css">
+   
 </head>
 <style>
     * {
@@ -484,7 +483,236 @@
         text-align: center;
         padding:5px 0px;
     }
+
+
+
+
+
+
+    @media (max-width:800px){
+
+        /* navigation menu */
+.logo img{
+    left:10px;
+}
+.navigation ul{
+    top:16px;
+}
+.navigation ul li a{
+    font-size: 1.1rem;
+    padding:10px;
+}
+.btn{
+    right:10px;
+    top:16px;
+}
+.btn button{
+    width:70px;
+    height:19px;
+}
+.btn button a{
+    font-size: 0.8rem;
+}
+
+/* home section */
+.headpara{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:450px;
+    width:580px;
+}
+.headpara h1{
+    font-size: 2rem;
+}
+.headpara h2{
+    font-size: 1.8rem;
+}
+.headpara p{
+    font-size: 1.2rem;
+}
+
+
+/* register section */
+
+#login{
+    height:350px;
+    width:300px;
+}
+#signup{
+    height:350px;
+    width:300px;
+}
+.btn3 button{
+    padding:0px 2px;
+    font-size: 0.8rem;
+}
+.form-input1{
+    width:200px;
+}
+.form-input2{
+    width:200px;
+}
+.btn3{
+    bottom:15px;
+}
+.head{
+    bottom:75px;
+}
+
+/* services section */
+#box{
+    flex-wrap: wrap;
+}
+
+/* client section */
+#logo{
+    flex-wrap: wrap;
+}
+
+/* abou-us section */
+.information1{
+    font-size: 0.95rem;
+}
+.contact{
+    font-size: 0.95rem;
+    bottom:12px;
+}
+.branch{
+    font-size: 0.95rem;
+}
+    }
+   
     
+
+@media (max-width:600px){
+    #navbar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo img{
+    height:35px;
+    left:0px;
+    top:2px;
+}
+.navigation ul{
+    top:1px;
+}
+.navigation ul li a{
+    padding:6px;
+    font-size: 0.8rem;
+}
+.btn{
+    top:2px;
+    right:0px;
+}
+.btn button{
+    width:40px;
+    height:14px;
+}
+.btn button a{
+    font-size: 0.5rem;
+  position: relative;
+  bottom: 4px;
+}
+
+/* home section */
+.headpara{
+    width:280px;
+}
+
+/* register section */
+#register{
+    flex-direction: column;
+}
+#login{
+    margin-right:0px;
+    width:240px;
+}
+#signup{
+    margin-top: 15px;
+    width:240px;
+
+}
+#logsign h1{
+    font-size: 1.5rem;
+}
+.btn3 h2{
+    font-size: 1.5rem;
+}
+.form-input1 label{
+    font-size: 0.8rem;
+}
+.form-input2 label{
+    font-size: 0.8rem;
+}
+.btn3 button{
+    font-size: 0.6rem;
+}
+.signbtn button{
+    font-size: 0.7rem;
+}
+.logbtn button{
+    font-size: 0.7rem;
+}
+.form-input2 input{
+    width:100px;
+}
+.form-input1 input{
+    width:100px;
+}
+
+/* service section */
+#box{
+    flex-wrap: wrap;
+}
+
+/* clients section */
+.clients3 img{
+    width:270px;
+}
+
+/* about-us section  */
+
+.information1{
+    font-size: 0.6rem;
+    width:200px;
+}
+.contact{
+    font-size: 0.6rem;
+    bottom:8px;
+}
+.branch{
+    font-size: 0.4rem;
+}
+.branch2{
+    margin-top: 3px;
+}
+
+/* help section */
+
+#help1 label{
+    font-size: 1.1rem;
+}
+#help1 form{
+    padding:1rem;
+}
+#help1 input,
+#help1 textarea{
+  padding:0.2rem;
+}
+.subbtn button{
+    width:50px;
+    font-size: 0.7rem;
+}
+
+footer{
+    font-size: 0.7rem;
+}
+}    
     
 </style>
 
