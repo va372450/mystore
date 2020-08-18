@@ -1,0 +1,92 @@
+
+/* navigation menu */
+.logo img{
+    left:10px;
+}
+.navigation ul{
+    top:16px;
+}
+.navigation ul li a{
+    font-size: 1.1rem;
+    padding:10px;
+}
+.btn{
+    right:10px;
+    top:16px;
+}
+.btn button{
+    width:70px;
+    height:19px;
+}
+.btn button a{
+    font-size: 0.8rem;
+}
+
+/* home section */
+.headpara{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:450px;
+    width:580px;
+}
+.headpara h1{
+    font-size: 2rem;
+}
+.headpara h2{
+    font-size: 1.8rem;
+}
+.headpara p{
+    font-size: 1.2rem;
+}
+
+
+/* register section */
+
+#login{
+    height:350px;
+    width:300px;
+}
+#signup{
+    height:350px;
+    width:300px;
+}
+.btn3 button{
+    padding:0px 2px;
+    font-size: 0.8rem;
+}
+.form-input1{
+    width:200px;
+}
+.form-input2{
+    width:200px;
+}
+.btn3{
+    bottom:15px;
+}
+.head{
+    bottom:75px;
+}
+
+/* services section */
+#box{
+    flex-wrap: wrap;
+}
+
+/* client section */
+#logo{
+    flex-wrap: wrap;
+}
+
+/* abou-us section */
+.information1{
+    font-size: 0.95rem;
+}
+.contact{
+    font-size: 0.95rem;
+    bottom:12px;
+}
+.branch{
+    font-size: 0.95rem;
+}
